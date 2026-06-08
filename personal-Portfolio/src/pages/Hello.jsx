@@ -3,7 +3,6 @@ import { gsap } from 'gsap'
 import { useEffect,useRef } from 'react'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
-import { h2 } from 'framer-motion/client'
 
 gsap.registerPlugin(ScrollTrigger)
 
