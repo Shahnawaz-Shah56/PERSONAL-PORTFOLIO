@@ -15,7 +15,9 @@ const Hello = () => {
         trigger: gsapRef.current,
         scroller: "body",
         scrub: true,
-        start: "top 120%"}
+        start: "top 120%",
+        markers:true,
+      end:"bottom 40%"}
 })
   })
   return (

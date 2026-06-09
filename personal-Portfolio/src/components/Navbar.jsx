@@ -19,8 +19,8 @@ useGSAP(()=>{
 
   return (
     <>
-        <div ref={gsapRef} className='nav flex items-center justify-between px-10 bg-amber-300 fixed top-0 w-full z-50'>
-      <h2 >Shahnawaz</h2>
+        <div ref={gsapRef} className='nav flex items-center justify-between px-10 fixed top-0 w-full z-50 mt-4'>
+      <h2 className='logo text-[2em] text-[rgba(231,207,177,1)]'>Shahnawaz</h2>
       <div>
       <NavbarLinks />
       </div>

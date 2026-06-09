@@ -16,9 +16,9 @@ const NavbarLinks = () => {
    
     <div>
         <div ref={gsapRef} className='navlinks flex items-center gap-10'>
-      <Link to='/'>Home</Link>
-      <Link to='/about'>About</Link>
-      <Link to='/contact'>Contact</Link>
+      <Link className='text-2xl text-[rgba(231,207,177,1)]' to='/'>Home</Link>
+      <Link className='text-2xl text-[rgba(231,207,177,1)]' to='/about'>About</Link>
+      <Link className='text-2xl text-[rgba(231,207,177,1)]' to='/contact'>Contact</Link>
 
         </div>
     </div>
